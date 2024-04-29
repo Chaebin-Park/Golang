@@ -21,7 +21,8 @@ func main() {
 		"https://academy.nomadcoders.co/",
 	}
 
-	url.HitURL(urls)
+	url.GoRoutineHitURL(urls)
+	// url.HitURL(urls)
 
 	// account := accounts.NewAccount("nico")
 	// account.Deposit(1000)
